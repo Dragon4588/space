@@ -4,9 +4,9 @@ padding: 0;
 }
 
 body{
-    background-image: url("image/images.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("image/images0.jpg");
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     font-family: 'Labrada', serif;
 }
 
@@ -51,10 +51,16 @@ section img{
     color: red;
 }
 
+.text{
+color:#000000 ;
+/* align-items: center; */
+margin-left: 259px;
+}
+
 .sky{
-    width: 500px;
-    height: 500px;
-    margin-left: 650px;
+    width: 427px;
+    height: 298px;
+    margin-left: 241px;
 }
 
 .piza{
@@ -67,7 +73,7 @@ section img{
 
 
 .header{
-background-color: rgb(188, 152, 223);
+background-color: rgb(37, 220, 233);
 width: 100%;
 height: 50px;
 display: flex;
@@ -84,7 +90,7 @@ list-style-type: none;
 }
 
 .header a{
-color: rgb(255, 255, 255);
+color: rgb(219, 254, 255);
 text-decoration: none;
 font-size: 20px;
 text-transform: uppercase;
@@ -92,9 +98,21 @@ transform: .6s;
 }
 
 .header a:hover{
-    color: rgb(85, 85, 85);
-    background-color: rgb(200, 127, 127);
+    color: rgb(84, 110, 110);
+    background-color: rgb(1, 160, 152);
     padding: 10px 20px;
     border-radius: 10px;
 }
 
+.text2{
+color: #000;
+margin-left: 242px;
+margin-top: 8px;
+margin-bottom: 13px;
+}
+.text3{
+    color: #000;
+    margin-left: 259px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
